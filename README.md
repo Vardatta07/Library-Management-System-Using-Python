@@ -64,4 +64,4 @@ Library-Management-System-Using-Python/
 ## Contact Information
 For inquiries or feedback, please contact:
 - Name: Vardatta07
-- Email: vardatta07@example.com
+- Email: b2006vardatta@gmail.com
