@@ -1,87 +1,67 @@
-📚 Library Management System
+# Library Management System
 
-A desktop graphical user interface (GUI) application built with Python and Tkinter for managing library operations. This system allows users to add, remove, search, borrow, and return books efficiently within a user-friendly environment.
+## Project Overview
+The Library Management System is designed to facilitate the management of library resources, including books, members, and transactions. It aims to simplify the process of tracking book availability, managing member information, and processing loans.
 
-🚀 Features
+## Features
+- User authentication
+- Search functionality for books
+- Management of book loans
+- Tracking of overdue items
+- Member registration and management
 
-User-Friendly Interface: Clean, blue-themed GUI built with tkinter and ttk styling.
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vardatta07/Library-Management-System-Using-Python.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Library-Management-System-Using-Python
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Add Books: Easily add new books to the library inventory with title and author details.
+## Usage Guide
+- Run the application:
+   ```bash
+   python main.py
+   ```
+- Follow the on-screen instructions to navigate the system.
 
-Remove Books: Remove outdated or lost books from the system by title.
+## Project Structure
+```
+Library-Management-System-Using-Python/
+│
+├── main.py                  # Main application file
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
 
-Search Functionality: Quickly find specific books and check their current status (Available/Borrowed).
+## Technical Details
+- Built using Python
+- Utilizes libraries such as Flask (for web framework) and SQLAlchemy (for database handling).
+- Follows MVC (Model-View-Controller) architecture.
 
-Display All: View a complete list of all books in the library with their details and status.
+## Contributing Guidelines
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a Pull Request.
 
-Borrow & Return System: Track book circulation by marking books as borrowed or returned.
-
-Real-time Status: Status bar updates instantly to show the total number of books in the collection.
-
-🛠️ Technologies Used
-
-Language: Python 3.x
-
-GUI Library: Tkinter (Standard Python interface to the Tcl/Tk GUI toolkit)
-
-📦 Prerequisites
-
-Ensure you have Python installed on your system. This application uses tkinter, which is typically included with standard Python installations.
-
-Python 3.x: Download Python
-
-📥 Installation & Usage
-
-Clone the Repository
-
-git clone [https://github.com/yourusername/library-management-system.git](https://github.com/yourusername/library-management-system.git)
-cd library-management-system
-
-
-Run the Application
-Navigate to the directory containing the script and run:
-
-python Untitled-3.py
-
-
-(Note: You may want to rename Untitled-3.py to main.py or library_system.py for better clarity.)
-
-🖥️ Application Overview
-
-Main Dashboard
-
-The application window is divided into three main sections:
-
-Header: Displays the application logo/title.
-
-Sidebar (Menu): Contains navigation buttons for all major operations (Add, Remove, Search, Display, Borrow, Return, Quit).
-
-Display Area: Shows the output of operations, such as the list of books.
-
-How to Use
-
-Adding a Book: Click "Add Book," enter the Title and Author when prompted.
-
-Borrowing: Click "Borrow Book," enter the Title. If available, the status changes to "Borrowed."
-
-Returning: Click "Return Book," enter the Title to mark it as available again.
-
-Searching: Click "Search Book" to find specific details about a book.
-
-🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📄 License
-
-This project is open-source and available under the MIT License.
+## Contact Information
+For inquiries or feedback, please contact:
+- Name: Vardatta07
+- Email: vardatta07@example.com
